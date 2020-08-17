@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Suite">
+	<test name="QA Agility Test chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="test.QAAgilityTest" />
+		</classes>
+	</test>
+	<!-- <test name="Orange HRM Test firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="test.HRTest" />
+		</classes>
+	</test> -->
+	<!-- Test -->
+</suite> <!-- Suite -->

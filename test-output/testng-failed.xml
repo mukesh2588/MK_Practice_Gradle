@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="QA Agility Test chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.QAAgilityTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.QAAgilityTest -->
+    </classes>
+  </test> <!-- QA Agility Test chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
