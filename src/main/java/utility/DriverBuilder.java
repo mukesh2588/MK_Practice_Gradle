@@ -25,6 +25,14 @@ public class DriverBuilder {
 
 	}
 	
+	public static void createDriver()
+	{
+		
+			System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
+			driver=new ChromeDriver();
+			
+	}
+	
 	public static WebDriver getDriver()
 	{
 		return driver;

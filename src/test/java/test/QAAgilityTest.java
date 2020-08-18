@@ -19,6 +19,8 @@ public class QAAgilityTest extends BaseTestMenthods {
 		
 		homepage.verifyTitle();
 		homepage.sizeAttribute();
+		homepage.verifyTwitterIcon();
+		homepage.verifyFooter();
 	}
 
 }
