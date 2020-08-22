@@ -4,12 +4,12 @@
   <test thread-count="5" name="QA Agility Test chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="test.QAAgilityTest">
+      <class name="test.GoogleMapTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="searchDestination"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- test.QAAgilityTest -->
+      </class> <!-- test.GoogleMapTest -->
     </classes>
   </test> <!-- QA Agility Test chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->
