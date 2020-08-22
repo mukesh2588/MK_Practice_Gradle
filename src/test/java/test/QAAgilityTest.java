@@ -9,7 +9,7 @@ import utility.DriverBuilder;
 
 public class QAAgilityTest extends BaseTestMenthods {
 	
-	@Test
+	@Test(enabled=false)
 	public void loginTest()
 	{
 		WebDriver driver=DriverBuilder.getDriver();

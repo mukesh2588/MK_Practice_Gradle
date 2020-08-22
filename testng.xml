@@ -4,6 +4,7 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="test.QAAgilityTest" />
+			<class name="test.GoogleMapTest" />
 		</classes>
 	</test>
 	<!-- <test name="Orange HRM Test firefox">
