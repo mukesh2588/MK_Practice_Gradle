@@ -21,6 +21,7 @@ public class GoogleMapTest extends BaseTestMenthods {
 		googlemap.enterDestination("Wankhede Stadium");
 		googlemap.searchDestination();
 		googlemap.verifyTitle();
+		googlemap.verifyHeader();
 		googlemap.printReview();
 	}
 	
