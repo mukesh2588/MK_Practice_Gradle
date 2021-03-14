@@ -2,6 +2,7 @@ package utility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class DriverBuilder {
 
@@ -14,7 +15,10 @@ public class DriverBuilder {
 		switch(browser.toUpperCase())
 		{
 		case "CHROME":
+			//ChromeOptions chromeOptions= new ChromeOptions(); **give explicit chrome browser path
+			//chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
 			System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
+		//	driver=new ChromeDriver(chromeOptions);
 			driver=new ChromeDriver();
 			break;
 		

@@ -10,7 +10,7 @@ import utility.DriverBuilder;
 public class GoogleMapTest extends BaseTestMenthods {
 	
 	
-	@Test
+	@Test(invocationCount = 2)/*this will run test case 2 times*/
 	public void searchDestination()
 	{
 		WebDriver driver=DriverBuilder.getDriver();

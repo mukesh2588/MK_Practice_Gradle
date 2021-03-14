@@ -33,7 +33,7 @@ dependencies {
     compile group: 'io.cucumber', name: 'gherkin', version: '13.0.0'
     compile group: 'log4j', name: 'log4j', version: '1.2.16'
     compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
-    testCompile group: 'org.testng', name: 'testng', version: '5.7'
+    testCompile group: 'org.testng', name: 'testng', version: '6.8.5'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
 }
 
