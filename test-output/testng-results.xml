@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43216" started-at="2021-03-14T18:14:47Z" finished-at="2021-03-14T18:15:30Z">
+  <suite name="Default suite" duration-ms="24918" started-at="2021-05-14T17:26:03Z" finished-at="2021-05-14T17:26:28Z">
     <groups>
     </groups>
-    <test name="QA Agility Test chrome" duration-ms="43216" started-at="2021-03-14T18:14:47Z" finished-at="2021-03-14T18:15:30Z">
-      <class name="test.GoogleMapTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.GoogleMapTest@59ec2012]" name="setup" is-config="true" duration-ms="4057" started-at="2021-03-14T23:44:47Z" finished-at="2021-03-14T23:44:51Z">
+    <test name="Default test" duration-ms="24918" started-at="2021-05-14T17:26:03Z" finished-at="2021-05-14T17:26:28Z">
+      <class name="test.QAAgilityTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.QAAgilityTest@65466a6a]" name="setup" is-config="true" duration-ms="2469" started-at="2021-05-14T22:56:03Z" finished-at="2021-05-14T22:56:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchDestination()[pri:0, instance:test.GoogleMapTest@59ec2012]" name="searchDestination" duration-ms="19997" started-at="2021-03-14T23:44:51Z" finished-at="2021-03-14T23:45:11Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:test.QAAgilityTest@65466a6a]" name="loginTest" duration-ms="22424" started-at="2021-05-14T22:56:05Z" finished-at="2021-05-14T22:56:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchDestination -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.GoogleMapTest@59ec2012]" name="setup" is-config="true" duration-ms="1854" started-at="2021-03-14T23:45:11Z" finished-at="2021-03-14T23:45:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchDestination()[pri:0, instance:test.GoogleMapTest@59ec2012]" name="searchDestination" duration-ms="17274" started-at="2021-03-14T23:45:13Z" finished-at="2021-03-14T23:45:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchDestination -->
-      </class> <!-- test.GoogleMapTest -->
-    </test> <!-- QA Agility Test chrome -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- test.QAAgilityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
